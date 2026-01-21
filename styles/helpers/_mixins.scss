@@ -10,6 +10,13 @@
     visibility: hidden;
 }
 
+@mixin cancel-button {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+
 @mixin show {
     opacity: 1;
     visibility: visible;
